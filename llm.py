@@ -41,7 +41,7 @@ def query_llm(query, vector_store):
     client = genai.Client(api_key=api_key)
     try:
         response = client.models.generate_content(
-            model="gemini-2.0-flash-lite",
+            model="gemini-2.5-flash-lite",
             contents=[template],
             config=types.GenerateContentConfig(
             max_output_tokens=500,

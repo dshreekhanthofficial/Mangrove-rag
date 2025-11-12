@@ -41,7 +41,7 @@ def llm(query: str) -> str:
     for _ in range(max_turns):
         try:
             response = client.models.generate_content(
-                model="gemini-2.0-flash-lite",
+                model="gemini-2.5-flash-lite",
                 contents=[continuation_prompt],
                 config=types.GenerateContentConfig(
                     max_output_tokens=900,

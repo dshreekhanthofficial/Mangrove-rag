@@ -17,7 +17,7 @@ def pre_doc(path):
     file = loader.load()
 
     # Use RecursiveCharacterTextSplitter to split the document into chunks
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=150)
     texts = text_splitter.split_documents(file)
     texts_content = [doc.page_content for doc in texts]
     

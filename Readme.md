@@ -1,4 +1,4 @@
-💬 Chat With Me 🤖
+*MangroveSense,
 
 # 🌿 *MangroveSense: Intelligent Chatbot for Mangrove Ecosystems*
 

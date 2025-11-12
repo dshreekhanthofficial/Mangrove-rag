@@ -1,0 +1,12 @@
+langchain==0.3.25
+python-dotenv==1.0.0
+streamlit==1.44.1
+wandb==0.16.6 
+protobuf==4.25.3 
+transformers==4.43.3 
+timm==0.9.12 
+sentence-transformers==2.6.1
+langchain-community
+google-genai
+pypdf
+faiss-cpu

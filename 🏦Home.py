@@ -11,7 +11,7 @@ st.sidebar.success("Select a Service above.")
 st.sidebar.snow()
 
 # Display header and project introduction
-st.header("Welcome! to Project X 🌐🤖")
+st.header("Welcome! to💬 Chat With Me 🤖")
 st.markdown(
     """
     Unlock the Power of Language Models and AI

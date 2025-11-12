@@ -1,27 +1,52 @@
 💬 Chat With Me 🤖
 
-Welcome to Chat With Me, an intelligent conversational AI system that combines the power of LangChain and Google’s Gemini LLM to deliver context-aware and knowledge-driven chatbot experiences.
+# 🌿 *MangroveSense: Intelligent Chatbot for Mangrove Ecosystems*
 
-This project leverages both Predefined RAG (Retrieval-Augmented Generation) and Knowledge-Based RAG to enable seamless interactions based on static and dynamic data sources.
+Welcome to *MangroveSense, an AI-powered conversational system crafted to explore and explain the fascinating world of **Mangrove Forests* 🌊🌴.  
+Powered by *Google’s Gemini LLM* and *LangChain*, MangroveSense combines knowledge retrieval and natural dialogue to deliver accurate, insightful, and eco-focused conversations.
 
-🌟 Project Overview
+---
 
-Chat With Me allows users to engage in meaningful conversations powered by cutting-edge AI.
-It can retrieve relevant information from uploaded documents, predefined knowledge bases, and respond naturally using Gemini’s advanced reasoning and generation capabilities.
+## 🧭 *Project Overview*
 
-🧠 Dual RAG Architecture
+*MangroveSense* is designed to answer questions exclusively related to Mangrove Forests — including their flora, fauna, conservation, economic impact, and tourism.  
+It intelligently fuses *Gemini’s reasoning* abilities with a *dual-RAG (Retrieval-Augmented Generation)* architecture, ensuring each response is both contextually relevant and scientifically sound.
 
-Predefined RAG — Utilizes preloaded datasets or fixed domain knowledge for consistent, factual responses.
+---
 
-Knowledge-Based RAG — Allows users to upload PDFs or custom data, enabling dynamic, document-based question answering.
+## 🧠 *Dual RAG Architecture*
 
-🚀 Key Features
+### 🌱 1. Predefined RAG  
+- Uses a *preloaded knowledge base* derived from curated PDFs and research on mangroves.  
+- The data is *pre-extracted and embedded* into a *Faiss vector store* for efficient retrieval.  
+- Ensures reliable, factual responses grounded in verified environmental knowledge.
 
-✅ Conversational Intelligence: Natural, human-like responses using Google’s Gemini LLM.
-✅ PDF Interaction: Upload documents and ask questions directly about their content.
-✅ Hybrid RAG Model: Combines predefined and user-provided knowledge bases for enhanced retrieval.
-✅ LangChain Integration: Manages data processing, vector storage, and context retrieval efficiently.
-✅ User-Friendly Interface: Simple chat interface for easy and intuitive interaction.
+### 📚 2. Knowledge-Based RAG  
+- Lets users *upload their own documents* to expand the chatbot’s knowledge dynamically.  
+- Before embedding, the uploaded file is *checked for relevance* — only mangrove-related content is added.  
+- If a file is unrelated, the system displays a polite *warning message*, ensuring domain integrity.
+
+---
+
+## 💬 *General Gemini Mode*
+
+This secondary mode uses *Gemini LLM without RAG*, responding purely from its predefined prompt context.  
+It offers *high-quality, conversational insights* while adhering strictly to the topic of *Mangrove Forests*.
+
+---
+
+## 🚀 *Key Features*
+
+✅ *Mangrove-Only Expertise* — Responds only to relevant environmental topics.  
+✅ *Hybrid Knowledge Integration* — Combines static (predefined) and dynamic (uploaded) sources.  
+✅ *Automated Filtering* — Ensures only mangrove-related content enriches the database.  
+✅ *LangChain + Faiss* — Efficient vector storage and semantic retrieval.  
+✅ *Gemini-Powered Reasoning* — Human-like, context-aware explanations.  
+✅ *User-Friendly Interface* — Clean and simple chat experience via Streamlit.
+
+---
+
+🌿 MangroveSense — where AI meets environmental intelligence.
 
 
 ### Installation Guide 🛠️💻

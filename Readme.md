@@ -1,27 +1,27 @@
-# Project X 🌐🤖
+💬 Chat With Me 🤖
 
-Welcome to Project X 👋. 
+Welcome to Chat With Me, an intelligent conversational AI system that combines the power of LangChain and Google’s Gemini LLM to deliver context-aware and knowledge-driven chatbot experiences.
 
-This project seamlessly integrates LangChain and Google's Gemini LLM to provide you with a unique and powerful chatbot experience.
+This project leverages both Predefined RAG (Retrieval-Augmented Generation) and Knowledge-Based RAG to enable seamless interactions based on static and dynamic data sources.
 
+🌟 Project Overview
 
+Chat With Me allows users to engage in meaningful conversations powered by cutting-edge AI.
+It can retrieve relevant information from uploaded documents, predefined knowledge bases, and respond naturally using Gemini’s advanced reasoning and generation capabilities.
 
-### Explore the Boundless Possibilities 🚀🌴
+🧠 Dual RAG Architecture
 
-## 1. PDF Wizardry with LangChain 📚🔗
-Tap into the magic of LangChain as it transforms your PDF documents into a treasure trove of insights. Simply upload your PDFs, and watch as the intelligent system, powered by Google's Gemini LLM, answers your questions with precision and flair.
+Predefined RAG — Utilizes preloaded datasets or fixed domain knowledge for consistent, factual responses.
 
-## 2. Journey into AI Wonderland with Gemini LLM 🌟🤖
-Embark on an interactive adventure with Google's Gemini Language Model. Engage in dynamic conversations, generate creative content, and witness the wonders of natural language processing through a user-friendly interface.
+Knowledge-Based RAG — Allows users to upload PDFs or custom data, enabling dynamic, document-based question answering.
 
+🚀 Key Features
 
-### Embrace the Features 🌈🔍
-- **Seamless PDF Interaction**: Pose questions about your PDFs and receive clear and concise answers effortlessly.
-- **State-of-the-Art Language Model**: Harness the power of Google's Gemini for a spectrum of tasks from content generation to natural language processing.
-- **User-Centric Interface**: Navigate with ease, making AI interaction accessible and enjoyable for everyone.
-
-### Ready to Soar? Let's Begin! 🌐🚀
-Unleash the full potential of machine learning and artificial intelligence.  
+✅ Conversational Intelligence: Natural, human-like responses using Google’s Gemini LLM.
+✅ PDF Interaction: Upload documents and ask questions directly about their content.
+✅ Hybrid RAG Model: Combines predefined and user-provided knowledge bases for enhanced retrieval.
+✅ LangChain Integration: Manages data processing, vector storage, and context retrieval efficiently.
+✅ User-Friendly Interface: Simple chat interface for easy and intuitive interaction.
 
 
 ### Installation Guide 🛠️💻
